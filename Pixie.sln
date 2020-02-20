@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixie", "Pixie\Pixie.csproj", "{44DC013B-FE53-4AB3-BB76-0C443D1ACF19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestApps", "TestApps", "{F706363F-6749-44CE-A26D-783B03762229}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{2ADB75EC-C3D8-44F1-9A32-3B7685E531CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{3463AB45-800D-4101-A2D8-6471B8A90875}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44DC013B-FE53-4AB3-BB76-0C443D1ACF19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44DC013B-FE53-4AB3-BB76-0C443D1ACF19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44DC013B-FE53-4AB3-BB76-0C443D1ACF19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44DC013B-FE53-4AB3-BB76-0C443D1ACF19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ADB75EC-C3D8-44F1-9A32-3B7685E531CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ADB75EC-C3D8-44F1-9A32-3B7685E531CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ADB75EC-C3D8-44F1-9A32-3B7685E531CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ADB75EC-C3D8-44F1-9A32-3B7685E531CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3463AB45-800D-4101-A2D8-6471B8A90875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3463AB45-800D-4101-A2D8-6471B8A90875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3463AB45-800D-4101-A2D8-6471B8A90875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3463AB45-800D-4101-A2D8-6471B8A90875}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2ADB75EC-C3D8-44F1-9A32-3B7685E531CA} = {F706363F-6749-44CE-A26D-783B03762229}
+		{3463AB45-800D-4101-A2D8-6471B8A90875} = {F706363F-6749-44CE-A26D-783B03762229}
+	EndGlobalSection
+EndGlobal
