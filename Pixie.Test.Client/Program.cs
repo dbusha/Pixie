@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Net;
 using System.Threading;
-using Pixie;
+using Pixie.Client;
 
-namespace Client
+namespace Pixie.Test.Client
 {
     class Program
     {
@@ -11,7 +11,6 @@ namespace Client
         {
             Console.WriteLine("Hello World!");
             TestClient client = new TestClient();
-            bool isExiting = false;
             while (true)
             {
                 var input = Console.ReadLine();
@@ -24,7 +23,7 @@ namespace Client
 
     public class TestClient
     {
-        public Pixie.PixieClient<string> client_;
+        public PixieClient<string> client_;
 
         public TestClient()
         {

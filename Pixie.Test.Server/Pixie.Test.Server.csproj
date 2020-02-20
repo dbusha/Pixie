@@ -12,7 +12,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Pixie\Pixie.csproj" />
+      <ProjectReference Include="..\Pixie.Server\Pixie.Server.csproj" />
     </ItemGroup>
 
 </Project>

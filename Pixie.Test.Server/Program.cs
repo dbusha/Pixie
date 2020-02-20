@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Net;
-using Pixie;
+using Pixie.Common;
+using Pixie.Server;
 
 namespace Server
 {

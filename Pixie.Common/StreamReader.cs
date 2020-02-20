@@ -4,7 +4,7 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using NLog;
 
-namespace Pixie
+namespace Pixie.Common
 {
     internal class StreamReader
     {
